@@ -1,3 +1,2 @@
-# polarity-denoising-sentiment-transfer
-Sentiment Transfer Using Polarity-Aware Denoising
+# Sentiment Transfer Using Polarity-Aware Denoising
 ## Code releasing soon ...

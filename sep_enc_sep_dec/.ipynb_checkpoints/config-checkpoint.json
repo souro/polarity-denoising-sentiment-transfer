@@ -1,0 +1,108 @@
+{
+  "dir": "",
+  "field_fix_length": 100,
+
+  "train_data_path": "",
+  "valid_data_path": "",
+  "test_data_path": "",
+
+  "train_pos_data_path": "",
+  "train_neg_data_path": "",
+  "valid_pos_data_path": "",
+  "valid_neg_data_path": "",
+  "test_pos_data_path": "",
+  "test_neg_data_path": "",
+
+  "src_ext": ".de",
+  "trg_ext": ".en",
+  "vocab_min_freq": 1,
+  "vocab_max_size": 30000,
+  "batch_size": 64,
+  "encoder_max_length": 100,
+  "decoder_max_length": 100,
+  "style_num_embeddings": 5,
+  "style_embedding_dim": 512,
+  "hid_dim_enc": 512,
+  "hid_dim_dec": 512,
+  "enc_layers": 4,
+  "dec_layers": 4,
+  "enc_heads": 8,
+  "dec_heads": 8,
+  "enc_pf_dim": 512,
+  "dec_pf_dim": 512,
+  "enc_dropout": 0.1,
+  "dec_dropout": 0.1,
+  "learning_rate": 0.0001,
+
+  "add_loss_s_w_start_epoch": 0,
+  "add_loss_s_w_end_epoch": 50,
+  "add_loss_t_s_w_start_epoch": 0,
+  "add_loss_t_s_w_end_epoch": 50,
+  "alt_loss_s_w_start_epoch": 0,
+  "alt_loss_s_w_end_epoch": 50,
+  "alt_loss_t_s_w_start_epoch": 0,
+  "alt_loss_t_s_w_end_epoch": 50,
+
+  "num_epochs": 50,
+  "clip": 1,
+  "early_stop_lookout": 5,
+  "another_early_stop_lookout": 10,
+
+  "add_loss_s_w": false,
+  "add_loss_t_s_w": false,
+  "alt_loss_s_w": false,
+  "alt_loss_t_s_w": false,
+
+  "translation_loss": true,
+  "translation_loss_start_epoch": 0,
+  "translation_loss_end_epoch": 50,
+
+  "style_loss": false,
+  "style_loss_start_epoch": 0,
+  "style_loss_end_epoch": 50,
+
+  "add_loss_t_s": false,
+  "add_loss_t_s_start_epoch": 0,
+  "add_loss_t_s_end_epoch": 50,
+
+  "alt_loss_t_s": false,
+  "alt_loss_t_s_start_epoch": 9,
+  "alt_loss_t_s_end_epoch": 50,
+
+  "vocab_prob_loss": false,
+  "vocab_prob_loss_start_epoch": 0,
+  "vocab_prob_loss_end_epoch": 50,
+
+  "add_loss_t_v": false,
+  "add_loss_t_v_start_epoch": 5,
+  "add_loss_t_v_end_epoch": 50,
+
+  "alt_loss_t_v": false,
+  "alt_loss_t_v_start_epoch": 0,
+  "alt_loss_t_v_end_epoch": 50,
+
+  "words_style_loss": false,
+  "words_style_loss_start_epoch": 0,
+  "words_style_loss_end_epoch": 50,
+
+  "add_loss_t_w": false,
+  "add_loss_t_w_start_epoch": 0,
+  "add_loss_t_w_end_epoch": 50,
+
+  "alt_loss_t_w": false,
+  "alt_loss_t_w_start_epoch": 0,
+  "alt_loss_t_w_end_epoch": 50,
+
+  "translation_loss_weight": 1.0,
+  "vocab_loss_weight": 1.0,
+  "ss_loss_weight": 1.0,
+  "ws_loss_weight": 1.0,
+
+  "check_best_after_epoch": -1,
+  "check_best_after_epoch2": 10,
+  "specific_epoch_checkpoint": -1,
+  "debug": false,
+
+  "style_cond": false,
+  "is_only_evaluation": false
+}

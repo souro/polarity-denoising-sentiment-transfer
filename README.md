@@ -8,7 +8,7 @@ In the pipeline, we (1) translate the source sentence from English to German usi
 
 
 <p align="left">
-  <img src="SentimentTransfer.png"/>
+  <img src="image/SentimentTransfer.png"/>
 </p>
 
 ## Model Variants

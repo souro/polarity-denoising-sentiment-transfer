@@ -42,13 +42,13 @@ If you use this data or code please cite the following:
 Sourabrata Mukherjee, Zdenˇek Kasner, and Ondˇrej Dušek. 2022. Balancing the style-content trade-off in sentiment transfer using polarity-aware denoising. In International Conference on Text, Speech, and Dialogue, pages 172–186. Springer.
   
     @inproceedings{mukherjee2022balancing,
-  title={Balancing the Style-Content Trade-Off in Sentiment Transfer Using Polarity-Aware Denoising},
-  author={Mukherjee, Sourabrata and Kasner, Zden{\v{e}}k and Du{\v{s}}ek, Ond{\v{r}}ej},
-  booktitle={Text, Speech, and Dialogue: 25th International Conference, TSD 2022, Brno, Czech Republic, September 6--9, 2022, Proceedings},
-  pages={172--186},
-  year={2022},
-  organization={Springer}
-}
+      title={Balancing the Style-Content Trade-Off in Sentiment Transfer Using Polarity-Aware Denoising},
+      author={Mukherjee, Sourabrata and Kasner, Zden{\v{e}}k and Du{\v{s}}ek, Ond{\v{r}}ej},
+      booktitle={Text, Speech, and Dialogue: 25th International Conference, TSD 2022, Brno, Czech Republic, September 6--9, 2022, Proceedings},
+      pages={172--186},
+      year={2022},
+      organization={Springer}
+      }
 
 ## Acknowledgements
 The code for translation has been mostly borrowed from [here](https://github.com/bentrevett/pytorch-seq2seq/blob/master/6%20-%20Attention%20is%20All%20You%20Need.ipynb).

@@ -724,7 +724,7 @@ SRC_PAD_IDX = SRC.vocab.stoi[SRC.pad_token]
 TRG_PAD_IDX = TRG.vocab.stoi[TRG.pad_token]
 
 pretrnd_model = Seq2Seq(enc, dec_pretrained, SRC_PAD_IDX, TRG_PAD_IDX, device).to(device)
-wmt_checkpoint = torch.load("../../simple_translation/"+pretrn_encoder+"/checkpoint.pt")
+wmt_checkpoint = torch.load("")
 pretrnd_model.load_state_dict(wmt_checkpoint['state_dict'])
 model = Seq2Seq2(pretrnd_model, enc, dec, SRC_PAD_IDX, TRG_PAD_IDX, device).to(device)
 

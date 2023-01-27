@@ -38,8 +38,6 @@ In the pipeline, we (1) translate the source sentence from English to German usi
 
 ## Contributors
 If you use this data or code please cite the following:
-
-    Sourabrata Mukherjee, Zdenˇek Kasner, and Ondˇrej Dušek. 2022. Balancing the style-content trade-off in sentiment transfer using polarity-aware denoising. In International Conference on Text, Speech, and Dialogue, pages 172–186. Springer.
   
     @inproceedings{mukherjee2022balancing,
       title={Balancing the Style-Content Trade-Off in Sentiment Transfer Using Polarity-Aware Denoising},

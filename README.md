@@ -19,7 +19,7 @@ In the pipeline, we (1) translate the source sentence from English to German usi
 
 * [Style Tok](https://github.com/SOURO/polarity-denoising-sentiment-transfer/tree/main/style_token)
   
-  Is a back-translation model with added sentiment identifiers (\<pos\> or <neg>) as output starting tokens. At the time of sentiment transfer, we decode the output with a changed sentiment identifier ("<pos> → <neg>", "<neg> → <pos>").
+  Is a back-translation model with added sentiment identifiers (\<pos\> or \<neg\>) as output starting tokens. At the time of sentiment transfer, we decode the output with a changed sentiment identifier (\<pos\> → \<neg\>, \<neg\> → \<pos\>).
   
 * [Two Sep. transformers](https://github.com/SOURO/polarity-denoising-sentiment-transfer/tree/main/sep_enc_sep_dec)
   

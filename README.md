@@ -6,6 +6,7 @@ This repo contains the code and data of the paper: [Balancing the Style-Content 
 
 In the pipeline, we (1) translate the source sentence from English to German using a transformer-based machine translation (MT) system; (2) apply noise on the German sentence using a German polarity lexicon; (3) encode the German sentence to latent representation using an encoder of German-to-English translation model; (4) decode the shared latent representation using the decoder for the opposite sentiment.
 
+
 <p align="left">
   <img src="SentimentTransfer.png"/>
 </p>
@@ -39,7 +40,8 @@ In the pipeline, we (1) translate the source sentence from English to German usi
 If you use this data or code please cite the following:
 
 Sourabrata Mukherjee, Zdenˇek Kasner, and Ondˇrej Dušek. 2022. Balancing the style-content trade-off in sentiment transfer using polarity-aware denoising. In International Conference on Text, Speech, and Dialogue, pages 172–186. Springer.
-  @inproceedings{mukherjee2022balancing,
+  
+    @inproceedings{mukherjee2022balancing,
   title={Balancing the Style-Content Trade-Off in Sentiment Transfer Using Polarity-Aware Denoising},
   author={Mukherjee, Sourabrata and Kasner, Zden{\v{e}}k and Du{\v{s}}ek, Ond{\v{r}}ej},
   booktitle={Text, Speech, and Dialogue: 25th International Conference, TSD 2022, Brno, Czech Republic, September 6--9, 2022, Proceedings},

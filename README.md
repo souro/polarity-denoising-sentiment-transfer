@@ -2,7 +2,7 @@
 
 This repo contains the code and data of the paper: [Balancing the Style-Content Trade-Off in Sentiment Transfer Using Polarity-Aware Denoising](https://link.springer.com/chapter/10.1007/978-3-031-16270-1_15).
 
-## Overview of the Architecture
+## Overview
 
 In the pipeline, we (1) translate the source sentence from English to German using a transformer-based machine translation (MT) system; (2) apply noise on the German sentence using a German polarity lexicon; (3) encode the German sentence to latent representation using an encoder of German-to-English translation model; (4) decode the shared latent representation using the decoder for the opposite sentiment.
 

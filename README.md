@@ -34,7 +34,7 @@ In the pipeline, we (1) translate the source sentence from English to German usi
 * [Polarity-Aware Denoising](https://github.com/SOURO/polarity-denoising-sentiment-transfer/tree/main/polarity_aware_noising)
 
 
-## Contributors
+## Citing
 If you use this data or code please cite the following:
   
     @inproceedings{mukherjee2022balancing,

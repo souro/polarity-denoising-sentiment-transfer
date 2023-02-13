@@ -14,7 +14,6 @@ In the pipeline, we (1) translate the source sentence from English to German usi
 ## Walkthrough
 
 ### Dependency
-Please do the following:
 
     pip install -r requirements.txt
     python -m spacy download de_core_news_sm
@@ -51,7 +50,7 @@ If you use this data or code please cite the following:
 
     Author: Sourabrata Mukherjee
     Copyright © 2023 Sourabrata Mukherjee.
-    Licensed under the MIT License ([see here](LICENSE)).
+    Licensed under the MIT License.
 
 ## Acknowledgements
 

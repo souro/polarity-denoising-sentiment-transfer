@@ -7,7 +7,4 @@
 
 ## Instructions
 - To use different data for each epoch, please run [this]() process beforehand for <no_of_epoch> times. We prepared 50 sets (no of epochs was 50) beforehand and put it in the subdirectories named 1,2,...,50 under a directory and used that directory path details in the config file where required.
-
-## Update
-- We have added more data (than mentioned in paper) later.
     

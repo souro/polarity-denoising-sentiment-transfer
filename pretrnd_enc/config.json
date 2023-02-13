@@ -2,10 +2,6 @@
   "dir": "",
   "field_fix_length": 100,
 
-  "train_data_path": "",
-  "valid_data_path": "",
-  "test_data_path": "",
-
   "train_pos_data_path": "",
   "train_neg_data_path": "",
   "valid_pos_data_path": "",

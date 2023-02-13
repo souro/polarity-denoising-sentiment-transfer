@@ -6,13 +6,6 @@
   "valid_data_path": "",
   "test_data_path": "",
 
-  "train_pos_data_path": "",
-  "train_neg_data_path": "",
-  "valid_pos_data_path": "",
-  "valid_neg_data_path": "",
-  "test_pos_data_path": "",
-  "test_neg_data_path": "",
-
   "src_ext": ".en",
   "trg_ext": ".de",
   "vocab_min_freq": 1,
@@ -103,5 +96,5 @@
   "debug": false,
 
   "style_cond": false,
-  "is_only_evaluation": true
+  "is_only_evaluation": false
 }

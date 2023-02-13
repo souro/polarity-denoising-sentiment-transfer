@@ -101,5 +101,5 @@
 
   "style_cond": false,
   "is_only_evaluation": true,
-  "pretrn_encoder": "wmt1M_gen-polr_rep_zero_three"
+  "pretrn_encoder": ""
 }

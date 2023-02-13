@@ -11,3 +11,6 @@
         ./apply-bpe -c {codes_file} < file_on_which_bpe_process_will_take_place > > output_file
   For 'codes_file', We have used it from the TORCHTEXT [WMT14](https://pytorch.org/text/0.8.1/datasets.html#wmt14) En-De dataset.
 - Once done, please mention the paths in every model variants' config file.
+
+## Update
+- We have added more data (than mentioned in paper).

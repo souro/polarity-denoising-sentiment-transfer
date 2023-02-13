@@ -1,7 +1,7 @@
 # Dataset
 
 ## Overview
-- We derived a new English dataset for sentiment transfer, based on the [Amazon Review Dataset]().
+- We derived a new English dataset for sentiment transfer, based on the [Amazon Review Dataset](https://aclanthology.org/D19-1018.pdf).
 - For data processing we have used [TORCHTEXT](https://pytorch.org/text/stable/index.html) in our code.
 - Apply the byte-pair encoding on the data before use. Please do the following
 
@@ -13,4 +13,4 @@
 - Once done, please mention the paths in every model variants' config file.
 
 ## Update
-- We have added more data (than mentioned in paper).
+- We have added more data here (than mentioned in our paper).
